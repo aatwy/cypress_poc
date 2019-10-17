@@ -1,0 +1,29 @@
+{
+    "gitlens.gitCommands.closeOnFocusOut": true,
+
+    "cucumberautocomplete.steps": [
+        "cypress/integration/**/*.js"
+    ],
+    "cucumberautocomplete.syncfeatures": "cypress/integration/**/*.js",
+    "cucumberautocomplete.strictGherkinCompletion": false,
+    "cucumberautocomplete.strictGherkinValidation": false,
+    "cucumberautocomplete.smartSnippets": true,
+    "cucumberautocomplete.stepsInvariants": true,
+    "cucumberautocomplete.pages": {
+        "Login": "cypress/pages/**/*.js"
+    },
+    "cucumberautocomplete.skipDocStringsFormat": true,
+    "cucumberautocomplete.formatConfOverride": {
+        "And": 3,
+        "But": "relative",
+    },
+    "cucumberautocomplete.onTypeFormat": true,
+    "editor.quickSuggestions": {
+        "comments": false,
+        "strings": true,
+        "other": true
+    },
+    "cucumberautocomplete.gherkinDefinitionPart": "(Given|When|Then)\\(",
+    "cucumberautocomplete.stepRegExSymbol": "'",
+    "git.autofetch": true
+}
