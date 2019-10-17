@@ -1,0 +1,32 @@
+
+{
+  "name": "project_x",
+  "version": "1.0.0",
+  "description": "POC for cypress with cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aatwy/automation_cypress_cucumber.git"
+  },
+  "author": "Ali Atwy <aatwy@foodlogiq.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aatwy/automation_cypress_cucumber/issues"
+  },
+  "homepage": "https://github.com/aatwy/automation_cypress_cucumber#readme",
+  "dependencies": {
+    "cosmiconfig": "^5.2.1",
+    "cypress": "^3.4.1"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^1.16.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "commonPath": "cypress/integration/common"
+
+  }
+}
