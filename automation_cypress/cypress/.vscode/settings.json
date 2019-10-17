@@ -1,8 +1,0 @@
-{
-    "cucumberautocomplete.steps": [
-        "integration/*.js",
-        "node_modules/qa-lib/src/step_definitions/*.js"
-    ],
-    "cucumberautocomplete.syncfeatures": "integration/*/*feature",
-    "cucumberautocomplete.strictGherkinCompletion": true
-}

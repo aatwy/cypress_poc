@@ -26,4 +26,5 @@
     "cucumberautocomplete.gherkinDefinitionPart": "(Given|When|Then)\\(",
     "cucumberautocomplete.stepRegExSymbol": "'",
     "git.autofetch": true
+    // test one two three
 }
